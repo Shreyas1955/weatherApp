@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Graphik,sans-serif;
+}
+.container img
+{
+height: 100%;
+width: 100%;
+z-index: -1;
+position: absolute;
+
+object-fit: cover;
+}
+.container
+{
+  position:flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  
+
+}
+
+.content{
+margin-top: 150px;
+margin-left: 680px;
+
+}
+.content input{
+
+  width: 300px;
+  height: 30px;
+  border-radius: 50px;
+  border: 2px solid white;
+  
+}
+.content button{
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 3px;
+  background-color:skyblue;
+    
+}
+.temp{
+  margin-top: 30px;
+  font-size: 30px;
+  
+}
+
+
+.main{
+  width: 1300px;
+  height: 700px;
+  background-image: url(./l-cover.png);
+  object-fit: cover;
+  margin-top: 50px;
+  margin-left: 100px;
+  
+
+}
+.flex{
+  display: flex;
+  
+
+}
+.flexitem{
+  border: 5px solid black;
+  margin: 10px;
+  padding: 50px;
+  justify-content: center;
+}
+.main img{
+  float: right;
+  height: 100%;
+  width: 100%;
+  object-fit:fill
+
+}
+.img{
+  
+  height: 700px;
+  width: 650px;
+  float: right;
+  background-color: #242424;
+  color:#fff;
+  
+  
+ 
+  
+  
+}
+.name{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+.date{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.form{
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+  max-width: 300px;
+}
+.button{
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding: 15px 0;
+background-color: #242424;
+color: white;
+border-radius: 8px;
+cursor: pointer;
+}
+.input-group input{
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  margin: 15px;
+  border: none;
+  
+
+}
+textarea{
+  resize: none;
+
+}
+.input-group input:focus{
+  outline: 2px solid #242424;
+  background-color: transparent;
+}
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-left: -180px;
+}
+.search-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: -50px;
+}
+
+.search-box input {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 15px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.search-box button {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+}
+
+.search-box button:hover {
+  background-color: #1e88e5;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.weather-info {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.weather-info h1,
+.weather-info h2 {
+  margin-bottom: 10px;
+}
+
+.extra-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.date {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.feedback-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 450px;
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 480px;
+  resize: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e88e5;
+}
